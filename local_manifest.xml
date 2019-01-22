@@ -3,10 +3,16 @@
 
 <!-- PixelExperience Dependency Projects -->
   <project name="PixelExperience/packages_resources_MotoActions" path="packages/resources/MotoActions" remote="github" revision="pie" />
+  
+<!-- Clang Dependency Projects -->
+  <project name="PixelExperience/prebuilts_clang_host_linux-x86" path="prebuilts/clang/host/linux-x86" remote="github" revision="pie" />
 
 <!-- Moto G5 Cedric Projects -->
-  <project name="Fedray/android_device_motorola_cedric" path="device/motorola/cedric" remote="github" revision="Liquid" />
-  <project name="Sohamlad7/android_kernel_motorola_msm8937" path="kernel/motorola/msm8937" remote="github" revision="lineage-16.0" />
-  <project name="Sohamlad7/android_vendor_motorola_cedric" path="vendor/motorola/cedric" remote="github" revision="lineage-16.0" />
+  <project name="Fedray/android_device_motorola_cedric" path="device/motorola/cedric" remote="github" revision="havoc" />
+  <project name="Fedray/kernel_motorola_msm8937" path="kernel/motorola/msm8937" remote="github" revision="pie-test" />
+  <project name="Fedray/android_vendor_motorola_cedric" path="vendor/motorola/cedric" remote="github" revision="aosp-test" />
+  
+<!-- Prebuilts -->
+  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
   
 </manifest>
